@@ -19,7 +19,7 @@ fn basicIO() {
     let greeting : &str = "Nice to meet you";
     
     //takes input from the user alongside built-in error handling
-    io::stdin().read_line(&mut name).expect("Didn't receive input");
+    io::stdin().read_line(&mut name).expect("Didn't receive input!");
 
     //{} is used to place a variable inside of a print statement
     println!("Hello {}! {}!", name.trim_end(), greeting);
